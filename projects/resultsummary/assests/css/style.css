@@ -143,6 +143,11 @@ main{
     font-weight: 600;
     color: #fff;
     border-radius: 25px;
+    transition: .5s;
+}
+
+.summay-btn:hover{
+    background: rgb(55, 91, 211);
 }
 
 @media (max-width : 706px) {
