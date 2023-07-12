@@ -1,0 +1,128 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@300;400;600;700&family=Montserrat:ital,wght@0,300;0,400;0,600;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    background: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 580px;
+    height: 420px;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 8px;
+}
+
+.image-container{
+    width: 50%;
+    height: 100%;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    background: url(../images/image-product-desktop.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.content-container{
+    width: 50%;
+    padding: 30px;
+    background: #fff;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.content-topic p{
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 5px;
+    color: hsl(228, 12%, 48%);
+}
+
+.content-title h3{
+    margin: 20px 0;
+    font-family: 'Fraunces', serif;
+    font-size: 1.8rem;
+    line-height: 30px;
+}
+
+.content-subline p{
+    color: hsl(228, 12%, 48%);
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.content-amount{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.content-amount p{
+    font-family: 'Fraunces', serif;
+    font-size: 2rem;
+    color: hsl(158, 36%, 37%);
+    font-weight: 600;
+}
+
+.content-amount span{
+    font-size: 13px;
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+    margin-left: 10px;
+}
+
+.content-btn{
+    width: 100%;
+    background: hsl(158, 36%, 37%);
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    padding: 15px 20px;
+    border-radius: 8px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.content-btn img{
+    margin: 0 10px -2px 0;
+}
+
+.content-btn:hover{
+    background: hsl(158, 53%, 22%);
+}
+
+@media (max-width : 620px){
+    .container{
+        flex-direction: column;
+        width: 90%;
+        height: 90%;
+    }
+    .image-container{
+        background: url(../images/image-product-mobile.jpg);
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        border-top-right-radius: 8px;
+        border-bottom-left-radius: 0;
+    }
+    .content-container{
+        width: 100%;
+        border-bottom-left-radius: 8px;
+        border-top-right-radius: 0;  
+    }
+}
