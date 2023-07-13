@@ -18,29 +18,11 @@ main{
     align-items: center;
     position: relative;
     overflow: hidden;
-}
-
-main::before{
-    content: '';
-    position: absolute;
-    top: -180px;
-    left: 0;
-    width: 650px;
-    height: 650px;
-    background: url(../images/bg-pattern-top.png);
-    transform: rotate(180deg);
-}
-
-main::after{
-    content: '';
-    position: absolute;
-    bottom: -200px;
-    right:  20px;
-    width: 600px;
-    height: 600px;
-    background: url(../images/bg-pattern-bottom.svg);
-    transform: rotate(30deg);
-    
+    background-image: url(../images/bg-pattern-top.svg), 
+                      url(../images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    background-position: right 50vw bottom 40vh,
+                         left 50vw top 50vh;
 }
 
 .profile-card{
