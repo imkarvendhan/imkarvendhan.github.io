@@ -1,0 +1,158 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+/* Reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:  hsl(204, 43%, 93%);
+}
+
+/* Main Card */
+
+.main-container{
+    max-width: 600px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-radius: 12px;
+}
+
+/* Header Card */
+
+.header-card{
+    grid-column: span 2;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px 8px 0 0;
+}
+
+.header-title{
+    font-size: 1.2rem;
+    color: hsl(179, 62%, 43%);
+}
+
+.header-subline{
+    color: hsl(71, 73%, 54%);
+    font-weight: 700;
+    margin: 1.2rem 0 1rem;
+}
+
+.header-text{
+    font-size: .9rem;
+    line-height: 22px;
+    width: 90%;
+    color: hsl(218, 22%, 67%);
+}
+
+/* Plan Section */
+
+.plan-card{
+    background: hsl(179, 62%, 43%);
+    padding: 2rem;
+    border-bottom-left-radius: 8px;
+}
+
+.plan-title{
+    color: #fff;
+    font-weight: 700;
+}
+
+.plan-amount{
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 700;
+    margin: 1rem 0 .5rem;
+    display: flex;
+    align-items: center;
+}
+
+.plan-amount span{
+    font-size: .8rem;
+    color: hsl(180, 36%, 72%);
+    margin-left: 10px;
+    font-weight: 400;
+}
+
+.plan-subline{
+    font-size: .9rem;
+    color: #fff;
+}
+
+.plan-btn{
+    margin-top: 1rem;
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 1rem;
+    background: hsl(71, 73%, 54%);
+    color: #fff;
+    border-radius: 8px;
+    font-weight: 700;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/* Footer Section */
+
+.footer-card{
+    padding: 2rem;
+    background: hsla(179, 61%, 44%, 0.856);
+    color: #fff;
+    border-bottom-right-radius: 8px;
+}
+
+.footer-title{
+    font-weight: 700;
+}
+
+.footer-menus{
+    margin-top: 1rem;
+}
+
+.footer-menus li{
+    font-size: .8rem;
+    color: hsl(180, 28%, 87%);
+    line-height: 17px;
+}
+
+/* Media Quries */
+
+@media (max-width: 640px) {
+    body{
+        height: auto;
+    }
+    .main-container{
+        grid-template-columns: 1fr;
+        width: 60%;
+        margin: 2rem auto;
+    }
+    .header-card{
+        grid-column: span 1;
+    }
+    .plan-card{
+        border-bottom-left-radius: 0;
+    }
+    .footer-card{
+        border-bottom-left-radius: 8px;
+    }
+}
+
+@media (max-width: 460px) {
+    .main-container{
+        width: 80%;
+    }
+}
