@@ -18,7 +18,7 @@ main{
     background-color: hsl(257, 40%, 49%);
     background-image: url(../images/bg-desktop.svg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 80%;
 }
 
 /* Header Logo */
