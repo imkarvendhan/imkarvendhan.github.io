@@ -4,4 +4,4 @@ Huddle landing page with a single introductory section
 
 Mobile View
 
-![sample1](https://github.com/imkarvendhan/imkarvendhan.github.io/assets/139115888/444f0c2a-6260-418e-b950-1dc1328d99d0)
+![sample3](https://github.com/imkarvendhan/imkarvendhan.github.io/assets/139115888/2c6889ff-8b54-4416-9f39-4152ff0c52c3)
