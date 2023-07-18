@@ -14,11 +14,14 @@
 
 main{
     width: 100vw;
-    height: 100vh;
     background-color: hsl(257, 40%, 49%);
     background-image: url(../images/bg-desktop.svg);
     background-repeat: no-repeat;
-    background-size: 80%;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 /* Header Logo */
