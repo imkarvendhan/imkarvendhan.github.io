@@ -66,10 +66,6 @@ header .logo{
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 4rem;
-    background-image: url(../images/bg-curve-desktop.svg);
-    background-repeat: no-repeat;
-    background-position: bottom;
-    margin-bottom: 7rem;
 }
 
 .home-content{
@@ -134,6 +130,11 @@ header .logo{
     gap:3.5rem;
     align-items: center;
     justify-content: center;
+    background-image: url(../images/bg-curve-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 7rem;
 }
 
 .left-content{
@@ -392,7 +393,6 @@ header .logo{
    .home-section{
        grid-template-columns: 1fr;
        place-items: center;
-       background-image: url(../images/bg-curve-mobile.svg)no-repeat;
    }
    .home-content{
        text-align: center;
@@ -401,9 +401,14 @@ header .logo{
    .about-section{
         grid-template-columns: 1fr;
         place-items: center;
-        max-width: 80%;
+        max-width: 100%;
         margin: 0 auto;
+        background-image: url(../images/bg-curve-mobile.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
    }
+
    .left-content{
        order: 2;
    }
@@ -412,10 +417,9 @@ header .logo{
    .about-link,
    .about-card{
        margin: 25px auto;
-       text-align: center;
    }
-   .left-content .about-content p{
-        text-align: start;
+   .left-content .about-content h3{
+        text-align: center;
    }
    .email-alert{
        grid-template-columns: 1fr;
