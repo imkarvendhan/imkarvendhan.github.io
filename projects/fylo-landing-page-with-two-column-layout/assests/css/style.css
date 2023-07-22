@@ -69,6 +69,7 @@ header .logo{
     background-image: url(../images/bg-curve-desktop.svg);
     background-repeat: no-repeat;
     background-position: bottom;
+    margin-bottom: 7rem;
 }
 
 .home-content{
@@ -391,7 +392,7 @@ header .logo{
    .home-section{
        grid-template-columns: 1fr;
        place-items: center;
-       background-image: url(../images/bg-curve-mobile.svg);
+       background-image: url(../images/bg-curve-mobile.svg)no-repeat;
    }
    .home-content{
        text-align: center;
