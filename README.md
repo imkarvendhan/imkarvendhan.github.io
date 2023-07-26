@@ -35,6 +35,9 @@ socialproofsection - [Live Preview](https://imkarvendhan.github.io/projects/soci
 testimonialsgridsection - [Live Preview](https://imkarvendhan.github.io/projects/testimonialsgridsection)
 
 fylo-landing-page-with-two-column-layout - [Live Preview](https://imkarvendhan.github.io/projects/fylo-landing-page-with-two-column-layout/)
+
+Huddle landing page with curved sections - [Live Preview](https://imkarvendhan.github.io/projects/huddle-landing-page-with-curved-sections/)
+
    
 
 
