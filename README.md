@@ -38,6 +38,8 @@ fylo-landing-page-with-two-column-layout - [Live Preview](https://imkarvendhan.g
 
 Huddle landing page with curved sections - [Live Preview](https://imkarvendhan.github.io/projects/huddle-landing-page-with-curved-sections/)
 
+Chat app CSS illustration - [Live Preview](https://imkarvendhan.github.io/projects/chat-app-css-illustration/)
+
    
 
 
