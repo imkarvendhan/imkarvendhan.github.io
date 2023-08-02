@@ -1,6 +1,6 @@
 🛠️  My Projects 
 
-Responsive Car Rental Website
+Responsive Car Rental Website - [Live Preview](https://imkarvendhan.github.io/projects/car-rental-site/)
 
 omnitrix - [Live Preview](https://imkarvendhan.github.io/projects/omnitrix)
 
