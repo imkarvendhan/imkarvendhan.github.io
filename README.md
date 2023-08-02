@@ -1,5 +1,11 @@
 🛠️  My Projects 
 
+Responsive Car Rental Website
+
+omnitrix - [Live Preview](https://imkarvendhan.github.io/projects/omnitrix)
+
+🛠️ FrontEnd Mentor Challanges.
+
 3-ColumnPreviewCard - [Live Preview](https://imkarvendhan.github.io/projects/3-ColumnPreviewCard)
 
 NFT-PreviewCard - [Live Preview](https://imkarvendhan.github.io/projects/NFT-PreviewCard )
@@ -21,8 +27,6 @@ fylodatastorage - [Live Preview](https://imkarvendhan.github.io/projects/fylodat
 huddle-landing-page-with-alternating-feature-blocks - [Live Preview](https://imkarvendhan.github.io/projects/huddle-landing-page-with-alternating-feature-blocks)
 
 huddlelandingpage - [Live Preview](https://imkarvendhan.github.io/projects/huddlelandingpage)
-
-omnitrix - [Live Preview](https://imkarvendhan.github.io/projects/omnitrix)
 
 productPreviewCard - [Live Preview](https://imkarvendhan.github.io/projects/productPreviewCard)
 
