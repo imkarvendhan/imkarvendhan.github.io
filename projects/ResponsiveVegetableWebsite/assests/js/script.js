@@ -1,14 +1,42 @@
 // Category Section Swiper 
 var swiper = new Swiper(".mySwiperCategory", {
-    slidesPerView: 'auto',
-    spaceBetween: 30,
-    grabCursor: true,
-    autoplay: {
-        delay: 1500,
-        disableOnInteraction: false,
-        pauseOnMouseEnter: true,
+  slidesPerView: 5,
+  spaceBetween: 30,
+  grabCursor: true,
+  autoplay: {
+      delay: 2000,
+      disableOnInteraction: false,
+      pauseOnMouseEnter: true,
     },
-    slidesPerGroup: 1,
+  slidesPerGroup: 1,
+  loop: true,
+  loopFillGroupWithBlank: true,
+  navigation: {
+    nextEl: ".cat-swipe-next",
+    prevEl: ".cat-swipe-prev",
+  },
+  breakpoints: {
+    1106: {
+      slidesPerView: 5,
+      spaceBetween: 40
+    },
+    960: {
+      slidesPerView: 4,
+      spaceBetween: 50
+    },
+    780: {
+      slidesPerView: 3,
+      spaceBetween: 50
+    },
+    510: {
+      slidesPerView: 2,
+      spaceBetween: 50
+    },
+    0: {
+      slidesPerView: 1,
+      spaceBetween: 60
+    }
+  }
   });
 
 // Latest Products Section Swiper 
@@ -60,11 +88,17 @@ dropdownMenuHeader.addEventListener('click',()=>{
 })
 
 
-// Menu Bar mobile
+// Mobile Menu Bar mobile
 
 let headerToggle = document.querySelector('.header__toggle');
 let mobileMenuBar = document.querySelector('.mobile__menubar');
 
 headerToggle.addEventListener('click',()=>{
   mobileMenuBar.classList.toggle('mobile-menu')
+  if (mobileMenuBar.classList.contains('mobile-menu')) {
+    headerToggle.innerHTML = `<i class="fa-solid fa-xmark"></i>`
+  }
+  else{
+    headerToggle.innerHTML = `<i class="fa-solid fa-bars"></i>`
+  }
 })
