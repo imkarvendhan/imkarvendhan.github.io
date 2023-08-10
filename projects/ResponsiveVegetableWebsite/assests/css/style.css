@@ -331,12 +331,7 @@ nav{
 .category{
     padding-bottom: 4rem;
 }
-.category__card-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: auto;
-}
+
 .category__card{
     background-color: #F5F5F5;
     width: 240px;
