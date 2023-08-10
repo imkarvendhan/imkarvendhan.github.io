@@ -2,4 +2,4 @@ UNDER CONSTRUCTION !
 
 Responsive Vegetable Website / HTML CSS JS
 
-[Live Preview](imkarvendhan.github.io/projects/ResponsiveVegetableWebsite)
+[Live Preview](https://imkarvendhan.github.io/projects/ResponsiveVegetableWebsite)
