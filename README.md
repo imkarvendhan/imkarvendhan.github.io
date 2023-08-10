@@ -1,7 +1,6 @@
-👋 Hi, I’m @imkarvendhan /n
-👀 I’m interested in Front End Development 
-🌱 I’m currently learning Javascript
- 
+👋 Hi, I’m @imkarvendhan 
+(💻 Self learning Front End Developer)
+
 🛠️  My Projects 
 
 UNDER CONSTRUCTION !
